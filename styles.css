@@ -37,3 +37,17 @@ body {
   font-weight: bold;
   margin-top: 20px;
 }
+
+#convertButton {
+  height: 30px;
+  width: 80px;
+  background-color: rgb(71, 71, 107);
+  color: white;
+  border-radius: 5px;
+}
+
+#convertButton:hover {
+  color: black;
+  background-color: white;
+  transition: .5s;
+}
