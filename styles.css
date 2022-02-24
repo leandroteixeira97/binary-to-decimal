@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(38, 38, 61);
+  display: flex;
+  justify-content: center;
+}
+
+.appArea {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  margin-top: 150px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.form input {
+  margin-top: 20px;
+}
+
+.resultArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.resultArea label, input {
+  font-weight: bold;
+  margin-top: 20px;
+}
